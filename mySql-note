@@ -1,0 +1,12 @@
+1.连表查询实例：
+订单表表 a 结构
+  orderId	status userId
+  1	      0      22
+订单商品表 b 结构
+  id	orderId itemId  title
+  1	  1         1001      白菜
+ 
+ 现已知用户userId=22,当前商品名tile='白菜'（假设商品名不重复）,查询用户当前商品的下单记录（订单id、订单状态）
+ select orderId,status from b inner join a on b.orderid = a.orderId where title = '白菜'
+
+// SELECT display_name, authority FROM  nine_user_system_authority INNER JOIN nine_users ON nine_user_system_authority.user_id = nine_users.user_id WHERE authority=129
