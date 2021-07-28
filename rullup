@@ -1,1 +1,2 @@
 1.Rollup基于ES2015模块，比Webpack和Browserify使用的CommonJS模块机制更高效。这也让Rollup从模块中删除无用的代码，即tree-shaking变得更容易
+2.Rollup直接不需要通过babel将import转化成Commonjs的require方式，极大地利用ES2015模块的优势。
