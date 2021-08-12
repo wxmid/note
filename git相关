@@ -5,3 +5,5 @@ nrm ls 可以查看所有源
 nrm use taobao 切到淘宝源
 
 nrm use npm 切到 npm 官方源
+
+npm config get registry // 查看当前使用源
