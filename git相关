@@ -1,0 +1,7 @@
+安装命令：npm i -g nrm --registry https://registry.npm.taobao.org
+
+nrm ls 可以查看所有源
+
+nrm use taobao 切到淘宝源
+
+nrm use npm 切到 npm 官方源
