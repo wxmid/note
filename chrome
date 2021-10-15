@@ -1,0 +1,1 @@
+1.chrome开发模式如何设置背景色为黑色？ 在打开DivTools工具的前提下，使用快捷键ctrl+shift+P打开Command工具。搜索“theme”,选中出现的第一个Appearance下面的 Switch to dark theme,即可切换黑色主题。黑色主题切换回白色主题也是一样的操作
